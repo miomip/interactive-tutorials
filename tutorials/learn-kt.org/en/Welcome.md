@@ -31,7 +31,7 @@ Just click on the chapter you wish to begin from, and follow the instructions. G
   - [[Build Tools]]
 
 ### Using what you've learned
-This section will contain no explaining of topics like how to declare variables. And more on how to use what prior sections have teached. 
+This section will contain no explaining of topics like how to declare variables. And more on how to use what prior sections have teached. <br>
 If something is **not** clear because of the topic in question, it will be explained.
   - [[Commandline game]]
   - [[Simple server with Ktor]]
