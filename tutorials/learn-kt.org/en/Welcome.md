@@ -13,9 +13,9 @@ Just click on the chapter you wish to begin from, and follow the instructions. G
   - [[Conditionals]]
   - [[Arrays]]
   - [[Loops]]
-  - [[Object oriented programming]]
   - [[Classes]]
   - [[Functions]]
+  - [[Object oriented programming]]
   - [[Compiling]]
   - [[Using commandline arguments]]
 
