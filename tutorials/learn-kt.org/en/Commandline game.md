@@ -8,10 +8,10 @@ I'll say what you need and give you some bits of code that is confusing or is ju
 ### What you're going to need
  - Main loop.
  - A list of words.
- - Function for guessing a word.
- - Function to check if the word guessed is right.
- - Function/variable to get a random word from the list of words.
- - A check for if the word is guessed.
+ - Function for guessing a word. (recursion might come in hand for invalid guesses)
+ - Function to check if the word guessed is right. ( .lowercase and .lowercaseChar should be usefull and .count might come in handy)
+ - Function/variable to get a random word from the list of words. (nextInt should be usefull for this)
+ - A check for if the word is guessed. (Can be done using an if statement)
  - Print out the placement of letters guessed right. And _ for which isn't guessed yet.
  - Count of tries left.
 
@@ -35,3 +35,7 @@ To use them you can just insert them into print like this
 ```
 You have to reset the color because otherwise it will apply for everything else, even after that expression.
 
+The file import function is something like this(example works)
+```kt
+ fun getsWordsFromFile(filePath: String, list: MutableList<String>) = File(filePath).forEachLine { list.add(it) } 
+```
